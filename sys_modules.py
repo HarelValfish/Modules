@@ -12,3 +12,6 @@ print("Current folder:",os.getcwd())
 
 # List all content
 print("Files here:", os.listdir())
+
+print(f"Python version: {sys.version}")
+print(f"Platfrom {sys.platform}")
